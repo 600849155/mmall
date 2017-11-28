@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://E://wspace idea/mmall/mmall.iml" filepath="E://wspace idea/mmall/mmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmall.iml" filepath="$PROJECT_DIR$/mmall.iml" />
     </modules>
   </component>
 </project>
