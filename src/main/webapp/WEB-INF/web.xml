@@ -39,13 +39,14 @@
     </context-param>
 
     <servlet>
+        <!--自动加载dispatcher-->
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
 
-
+   <!--指定DispatcherServlet 处理所有URL 以.do 为后缀的Http请求-->
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.do</url-pattern>
